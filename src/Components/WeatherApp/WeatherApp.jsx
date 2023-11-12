@@ -2,9 +2,9 @@
 import "./WeatherApp.css"
 import { useState } from "react";
 
-import search_icon from './images/search.png';
+import search_icon from './images/search.png'
 import clear_icon from './images/clear.png';
-import cloud_icon from './images/cloud.png';
+import cloud_icon from './images/clouds.png';
 import drizzle_icon from './images/drizzle.png';
 import rain_icon from './images/rain.png';
 import snow_icon from './images/snow.png';
