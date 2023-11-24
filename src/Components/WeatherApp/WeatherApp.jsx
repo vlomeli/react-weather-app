@@ -14,7 +14,7 @@ import humidity_icon from './images/humidity.png';
 
 const WeatherApp = () => {
 
-    let api_key ="d81d7dd720dd2273113d2efe6af1a888";
+    let api_key ="0913961b7e75f216128202680aa94db5";
 
     const [wicon,setWicon] = useState(cloud_icon);
     
@@ -71,7 +71,7 @@ const WeatherApp = () => {
         {
             setWicon(clear_icon);
         }
-    }
+    };
 
     return (
         <div className='container'>
@@ -84,20 +84,20 @@ const WeatherApp = () => {
             <div className="weather-image">
                 <img src={wicon} alt=""/>
             </div>
-            <div className="weather-temp">24°F</div>
-            <div className="weather-location">London</div>
+            <div className="weather-temp">63°F</div>
+            <div className="weather-location">San Jose</div>
             <div className="data-container">
                 <div className="element">
                     <img src={humidity_icon} alt="" className="icon"/>
                     <div className="data">
-                        <div className="humidity-percent">64%</div>
+                        <div className="humidity-percent">53%</div>
                         <div className="text">Humidity</div>
                     </div>
                 </div>
                 <div className="element">
                     <img src={wind_icon} alt="" className="icon"/>
                     <div className="data">
-                        <div className="wind-rate">18 MPH</div>
+                        <div className="wind-rate">13 MPH</div>
                         <div className="text">Wind Speed</div>
                     </div>
                 </div>
